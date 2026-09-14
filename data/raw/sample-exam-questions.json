@@ -1,0 +1,184 @@
+[
+  {
+    "id": "q-01",
+    "category": "priority",
+    "questionAm": "ወደ አደባባይ (Roundabout) የሚገባ ተሽከርካሪ ለማን ቅድሚያ የመስጠት ግዴታ አለበት?",
+    "questionEn": "When entering a roundabout, who must a driver yield right-of-way to?",
+    "optionsAm": [
+      "ከኋላው ለሚከተለው ተሽከርካሪ",
+      "አስቀድመው ወደ አደባባዩ ለገቡና በውስጡ ለሚዞሩ ተሽከርካሪዎች",
+      "ከግራ በኩል ገና ወደ አደባባዩ ለመግባት ለሚዘጋጁ ተሽከርካሪዎች",
+      "ቀድሞ ጥሩንባ ላሰማ ተሽከርካሪ"
+    ],
+    "optionsEn": [
+      "To vehicles following closely behind",
+      "To vehicles already inside and circulating within the roundabout",
+      "To vehicles preparing to enter from the left approach",
+      "To the driver who sounded their horn first"
+    ],
+    "correctIndex": 1,
+    "explanationAm": "በኢትዮጵያ የትራፊክ ደንብ መሰረት ወደ አደባባይ የሚገባ ማንኛውም ተሽከርካሪ አስቀድሞ ወደ አደባባዩ ለገቡ እና በውስጡ በመዘዋወር ላይ ላሉ ተሽከርካሪዎች ቅድሚያ የመስጠት ግዴታ አለበት።",
+    "explanationEn": "According to Ethiopian road regulations, any vehicle entering a roundabout must yield right-of-way to traffic already circulating within the roundabout.",
+    "signId": "warn-01"
+  },
+  {
+    "id": "q-02",
+    "category": "signs",
+    "questionAm": "ባለ ስምንት ማዕዘን (Octagon) ቀይ ቅርጽ ያለው የትራፊክ ምልክት ትርጉም ምንድን ነው?",
+    "questionEn": "What does an octagonal red traffic sign signify?",
+    "optionsAm": [
+      "ፍጥነት ቀንስ",
+      "ቁም (STOP) - ተሽከርካሪው ሙሉ በሙሉ መቆም አለበት",
+      "ቀድመህ እለፍ",
+      "የመንገድ ጥገና አለ"
+    ],
+    "optionsEn": [
+      "Slow down cautiously",
+      "STOP - the vehicle must come to a complete halt",
+      "You have right of way",
+      "Road maintenance underway"
+    ],
+    "correctIndex": 1,
+    "explanationAm": "የቁም (STOP) ምልክት ባለ 8 ማዕዘን ቅርጽ ያለው ብቸኛው ምልክት ሲሆን፣ ሹፌሩ ከመስመሩ በፊት ሙሉ በሙሉ ቆሞ መንገዱ ነጻ መሆኑን ማረጋገጥ አለበት።",
+    "explanationEn": "The STOP sign is the only octagonal traffic sign. Drivers must bring the vehicle to a complete standstill before the stop line.",
+    "signId": "reg-01"
+  },
+  {
+    "id": "q-03",
+    "category": "speed",
+    "questionAm": "በኢትዮጵያ ከተሞች ውስጥ የተለየ ምልክት በሌለበት ሁኔታ ከፍተኛው የተፈቀደ ፍጥነት ስንት ነው?",
+    "questionEn": "Unless otherwise signed, what is the standard maximum legal speed limit inside Ethiopian urban areas?",
+    "optionsAm": [
+      "70 ኪ.ሜ/ሰ",
+      "60 ኪ.ሜ/ሰ",
+      "30 - 50 ኪ.ሜ/ሰ",
+      "80 ኪ.ሜ/ሰ"
+    ],
+    "optionsEn": [
+      "70 km/h",
+      "60 km/h",
+      "30 - 50 km/h",
+      "80 km/h"
+    ],
+    "correctIndex": 2,
+    "explanationAm": "በከተሞች ውስጥ መደበኛ ከፍተኛ የፍጥነት ገደብ ከ 30 እስከ 50 ኪ.ሜ/ሰ ሲሆን፤ በት/ቤትና ሆስፒታል አካባቢ 30 ኪ.ሜ/ሰ ነው።",
+    "explanationEn": "In urban centers, the default legal ceiling is 30 to 50 km/h, dropping to 30 km/h in school and hospital zones.",
+    "signId": "reg-02"
+  },
+  {
+    "id": "q-04",
+    "category": "priority",
+    "questionAm": "ምልክትም ሆነ መብራት በሌለበት እኩል ደረጃ ባለው መስቀለኛ መንገድ ላይ የቀዳሚነት መብቱ የማን ነው?",
+    "questionEn": "At an unregulated intersection of equal road ranking, who has right-of-way?",
+    "optionsAm": [
+      "ከግራ በኩል ለሚመጣ ተሽከርካሪ",
+      "ከቀኝ በኩል ለሚመጣ ተሽከርካሪ",
+      "ትልቅ ወይም ከባድ ለሆነው ተሽከርካሪ",
+      "በከፍተኛ ፍጥነት ለሚጓዝ ተሽከርካሪ"
+    ],
+    "optionsEn": [
+      "Vehicle approaching from the left",
+      "Vehicle approaching from the right",
+      "The larger or heavier vehicle",
+      "The vehicle traveling at higher velocity"
+    ],
+    "correctIndex": 1,
+    "explanationAm": "ምንም አይነት ምልክት ወይም መብራት በሌለበት መስቀለኛ መንገድ ላይ 'የቀኝ እጅ ቀዳሚነት' ህግ ተግባራዊ ይሆናል፤ ከቀኝ ለሚመጣ ተሽከርካሪ ቅድሚያ ይሰጣል።",
+    "explanationEn": "The 'Priority to the Right' rule applies at all uncontrolled equivalent intersections in Ethiopia.",
+    "signId": null
+  },
+  {
+    "id": "q-05",
+    "category": "speed",
+    "questionAm": "በደረቅ አስፋልት እና በመደበኛ የአየር ሁኔታ ከፊት ለፊታችን ካለ ተሽከርካሪ በስተጀርባ ሊጠበቅ የሚገባው ዝቅተኛ የርቀት ህግ ስንት ነው?",
+    "questionEn": "Under normal weather conditions on dry pavement, what is the minimum safe following distance rule?",
+    "optionsAm": [
+      "የ 1 ሰከንድ ህግ",
+      "የ 2 ሰከንድ ህግ",
+      "የ 10 ሰከንድ ህግ",
+      "የ 50 ሜትር ቋሚ ርቀት ብቻ"
+    ],
+    "optionsEn": [
+      "1-second rule",
+      "2-second rule",
+      "10-second rule",
+      "Fixed 50-meter distance only"
+    ],
+    "correctIndex": 1,
+    "explanationAm": "በመደበኛ ሁኔታ ቢያንስ የ 2 ሰከንድ የርቀት ክፍተት መጠበቅ አለበት፤ በዝናብ ወይም በጭጋግ ወቅት ይህ ርቀት ወደ 4 ሰከንድ ማደግ አለበት።",
+    "explanationEn": "The standard minimum safe following distance under good weather is the 2-second rule, extending to 4 seconds during adverse conditions.",
+    "signId": null
+  },
+  {
+    "id": "q-06",
+    "category": "safety",
+    "questionAm": "ጉዞ ከመጀመርዎ በፊት በጠዋት ከሚደረጉ የቅድመ-ጉዞ ፍተሻዎች መካከል የማይካተተው የቱ ነው?",
+    "questionEn": "Which of the following is NOT a routine pre-trip check required before setting off?",
+    "optionsAm": [
+      "የሞተር ዘይትና የፍሬን ፈሳሽ መጠን ማረጋገጥ",
+      "የጎማ ንፋስ እና የመለዋወጫ ጎማ ዝግጁነት ማየት",
+      "የተሽከርካሪውን ቀለምና ጌጥ መቀየር",
+      "የመብራቶችና የአቅጣጫ ጠቋሚዎች መስራት"
+    ],
+    "optionsEn": [
+      "Checking engine oil and hydraulic brake fluid levels",
+      "Inspecting tire pressures and spare wheel readiness",
+      "Changing the exterior paint and vehicle decals",
+      "Verifying headlights and indicator lights"
+    ],
+    "optionsEn": [
+      "Checking engine oil and hydraulic brake fluid",
+      "Inspecting tire pressures and spare wheel readiness",
+      "Changing the exterior paint and vehicle decals",
+      "Verifying headlights and indicator lights"
+    ],
+    "correctIndex": 2,
+    "explanationAm": "የተሽከርካሪውን ቀለም መቀየር የቅድመ-ጉዞ ቴክኒካል ፍተሻ አካል አይደለም። ዘይት፣ ፈሳሽ፣ ጎማ እና መብራቶች የደህንነት ዋና አካላት ናቸው።",
+    "explanationEn": "Altering vehicle aesthetics or paint is irrelevant to pre-trip roadworthiness checks.",
+    "signId": null
+  },
+  {
+    "id": "q-07",
+    "category": "signs",
+    "questionAm": "ቀይ ክብ ቅርጽ ያለው የትራፊክ ምልክት በአጠቃላይ ምን ዓይነት ትርጉም ያስተላልፋል?",
+    "questionEn": "What general category do circular signs with red borders belong to?",
+    "optionsAm": [
+      "የማስጠንቀቂያ ምልክቶች",
+      "የመከልከያ ወይም የቁጥጥር ምልክቶች (Prohibitory / Regulatory)",
+      "የመረጃ ሰጪ ምልክቶች",
+      "የመንገድ አቅጣጫ ጠቋሚ ምልክቶች"
+    ],
+    "optionsEn": [
+      "Hazard warning signs",
+      "Prohibitory / Regulatory signs (prohibitions or restrictions)",
+      "Informational service signs",
+      "Directional guide signs"
+    ],
+    "correctIndex": 1,
+    "explanationAm": "ቀይ ክብ ቅርጽ ያላቸው ምልክቶች የመከልከያ (Prohibitory) ሲሆኑ፣ የተከለከሉ ድርጊቶችን (ለምሳሌ ቀድሞ ማለፍ፣ ፍጥነት ገደብ፣ ማቆም ክልክል) ይገልጻሉ።",
+    "explanationEn": "Circular signs with red borders indicate prohibitions or legal restrictions.",
+    "signId": "reg-03"
+  },
+  {
+    "id": "q-08",
+    "category": "safety",
+    "questionAm": "የትራፊክ አደጋ በደረሰበት ቦታ ላይ የቆመ ተሽከርካሪ የአደጋ ማስጠንቀቂያ ትሪያንግል (C-caution) በምን ያህል ርቀት ላይ መተከል አለበት?",
+    "questionEn": "At what minimum distance behind a disabled vehicle should the reflective hazard triangle be placed on a highway?",
+    "optionsAm": [
+      "ከተሽከርካሪው በ 2 ሜትር ርቀት",
+      "ቢያንስ በ 50 ሜትር ርቀት ላይ",
+      "ከመኪናው ጣሪያ ላይ ብቻ",
+      "ከተሽከርካሪው በ 500 ሜትር ርቀት"
+    ],
+    "optionsEn": [
+      "2 meters behind vehicle",
+      "At least 50 meters behind the vehicle",
+      "On the vehicle roof only",
+      "500 meters behind vehicle"
+    ],
+    "correctIndex": 1,
+    "explanationAm": "ከኋላ የሚመጡ አሽከርካሪዎች አስቀድመው አይተው ፍጥነት መቀነስ እንዲችሉ የማስጠንቀቂያ ትሪያንግሉ ቢያንስ በ 50 ሜትር ርቀት ላይ መተከል አለበት።",
+    "explanationEn": "The reflective triangle must be positioned at least 50 meters behind the vehicle to provide oncoming traffic adequate reaction time.",
+    "signId": null
+  }
+]

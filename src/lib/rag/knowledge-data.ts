@@ -1,0 +1,121 @@
+import { KnowledgeChunk } from "./types";
+
+export const KNOWLEDGE_CHUNKS: KnowledgeChunk[] = [
+  {
+    id: "chunk-roundabout",
+    titleAm: "የአደባባይ የቀዳሚነት መብት",
+    titleEn: "Roundabout Right-of-Way Priority",
+    chapter: "ምዕራፍ 1 / Chapter 1: የቀዳሚነት መብት ህጎች",
+    section: "አንቀጽ 1.1 / Section 1.1",
+    category: "priority",
+    contentAm: "በኢትዮጵያ የትራፊክ ደንብ መሰረት ወደ አደባባይ (Roundabout) የሚገባ ማንኛውም ተሽከርካሪ አስቀድሞ ወደ አደባባዩ ለገቡና በአደባባዩ ውስጥ በመዞር ላይ ላሉ ተሽከርካሪዎች ቅድሚያ የመስጠት ግዴታ አለበት። ወደ አደባባዩ የሚገባ ሹፌር ፍጥነቱን በመቀነስ በግራ በኩል ለሚመጣ ተሽከርካሪ ቅድሚያ ይሰጣል። በአደባባይ ውስጥ እየተጓዘ ያለ ተሽከርካሪ ካልተፈቀደ በስተቀር መስመሩን ድንገት መቀየር የለበትም። ከአደባባይ ለመውጣት በሚፈለግበት ወቅት ተገቢውን የፍላሽ (አቅጣጫ ጠቋሚ መብራት) አስቀድሞ ማብራት ግዴታ ነው።",
+    contentEn: "According to Ethiopian Federal Transport Authority regulations, any vehicle entering a roundabout must yield right-of-way to vehicles already inside and circulating within the roundabout. Drivers approaching a roundabout must slow down and give priority to traffic circulating from their left. Never make abrupt or unsignaled lane changes inside a roundabout. Signal your intention to exit using the proper turn indicator before turning off the roundabout.",
+    keywordsAm: ["አደባባይ", "ቀዳሚነት", "ግራ", "ቅድሚያ", "ፍላሽ", "ዙር"],
+    keywordsEn: ["roundabout", "priority", "yield", "right of way", "circulating", "indicator"],
+    signIds: ["warn-01", "man-02"]
+  },
+  {
+    id: "chunk-right-hand-rule",
+    titleAm: "የቀኝ እጅ የቀዳሚነት መብት በመስቀለኛ መንገድ",
+    titleEn: "The Priority to the Right Rule at Intersections",
+    chapter: "ምዕራፍ 1 / Chapter 1: የቀዳሚነት መብት ህጎች",
+    section: "አንቀጽ 1.2 / Section 1.2",
+    category: "priority",
+    contentAm: "የትራፊክ መብራት፣ የትራፊክ ፖሊስ ወይም የትራፊክ ምልክት በሌለበት ማንኛውም እኩል ደረጃ ባለው መስቀለኛ መንገድ ላይ ከቀኝ አቅጣጫ ለሚመጣ ተሽከርካሪ ሁልጊዜ ቅድሚያ ይሰጣል። ወደ ግራ የሚታጠፍ ተሽከርካሪ ቀጥታ ለሚሄዱ እና ወደ ቀኝ ለሚታጠፉ ተሽከርካሪዎች ቅድሚያ መስጠት አለበት። ዋና መንገድ ላይ የሚጓዝ ተሽከርካሪ ከቅርንጫፍ (ረዳት) መንገድ ለሚመጣ ተሽከርካሪ ቅድሚያ አይሰጥም፤ የቀዳሚነት መብቱ የዋናው መንገድ ተጓዥ ነው።",
+    contentEn: "At any intersection where there is no traffic light, traffic officer, or regulatory sign, vehicles approaching from the right-hand side always have priority of passage. A vehicle turning left must yield to oncoming vehicles traveling straight ahead or turning right. Traffic on a designated primary arterial road has priority over secondary or feeder access roads.",
+    keywordsAm: ["ቀኝ", "ቀኝ እጅ", "መስቀለኛ", "ቀዳሚነት", "ዋና መንገድ", "መታጠፍ"],
+    keywordsEn: ["right hand rule", "intersection", "unregulated", "priority to the right", "turning left", "feeder"],
+    signIds: []
+  },
+  {
+    id: "chunk-emergency-vehicles",
+    titleAm: "የአስቸኳይ ጊዜ ተሽከርካሪዎች የቀዳሚነት መብት",
+    titleEn: "Priority for Emergency Response Vehicles",
+    chapter: "ምዕራፍ 1 / Chapter 1: የቀዳሚነት መብት ህጎች",
+    section: "አንቀጽ 1.3 / Section 1.3",
+    category: "priority",
+    contentAm: "የሳይረን ድምጽ ወይም የማስጠንቀቂያ መብራት በማብራት ላይ ላሉ የአስቸኳይ ጊዜ ተሽከርካሪዎች (አምቡላንስ፣ የእሳት አደጋ መኪና እና የፖሊስ ተሽከርካሪ) ሁሉም ተሽከርካሪዎች ወዲያውኑ መንገዱን በመልቀቅ ወደ ቀኝ አቅጣጫ በመጠጋት ማቆም ወይም ፍጥነት መቀነስ አለባቸው።",
+    contentEn: "Emergency vehicles (ambulances, fire engines, police cars) sounding sirens or displaying flashing emergency beacons have absolute priority over all other road users. Drivers must immediately pull as close as practical to the right-hand edge of the roadway and stop until the emergency vehicle has cleared.",
+    keywordsAm: ["አምቡላንስ", "እሳት አደጋ", "ፖሊስ", "ሳይረን", "አስቸኳይ", "ቅድሚያ"],
+    keywordsEn: ["emergency", "ambulance", "fire truck", "police", "siren", "beacon", "yield"],
+    signIds: []
+  },
+  {
+    id: "chunk-speed-limits",
+    titleAm: "የከተማና የአውራ ጎዳና የፍጥነት ገደቦች",
+    titleEn: "Urban and Highway Speed Limits",
+    chapter: "ምዕራፍ 2 / Chapter 2: የፍጥነት ገደብና የርቀት ህጎች",
+    section: "አንቀጽ 2.1 / Section 2.1",
+    category: "speed",
+    contentAm: "በኢትዮጵያ የትራንስፖርት ደንብ መሰረት በከተማ ውስጥ ከፍተኛው የተፈቀደ ፍጥነት 30 ኪ.ሜ/ሰ እስከ 50 ኪ.ሜ/ሰ ነው። በትምህርት ቤቶች፣ በሆስፒታሎች እና በገበያ አካባቢዎች ከፍተኛው ፍጥነት 30 ኪ.ሜ/ሰ ነው። ክፍት አውራ ጎዳናዎች ለአነስተኛ አውቶሞቢሎች ከፍተኛው ፍጥነት 80 ኪ.ሜ/ሰ እስከ 100 ኪ.ሜ/ሰ ነው። ለከባድ የጭነት እና የህዝብ ማመላለሻ ተሽከርካሪዎች በአውራ ጎዳና ከፍተኛው ፍጥነት 70 ኪ.ሜ/ሰ እስከ 80 ኪ.ሜ/ሰ ነው።",
+    contentEn: "Unless otherwise posted, default urban speed limits across Ethiopian cities range from 30 km/h to 50 km/h. Near schools, hospitals, pedestrian crossings, and open markets, speed is restricted to 30 km/h. On open rural highways, private automobiles may travel up to 80-100 km/h, while heavy commercial freight and large public transport buses are restricted to 70-80 km/h.",
+    keywordsAm: ["ፍጥነት", "ኪሎሜትር", "ከተማ", "አውራ ጎዳና", "ትምህርት ቤት", "ገደብ"],
+    keywordsEn: ["speed limit", "urban", "highway", "school zone", "maximum speed", "km/h"],
+    signIds: ["reg-02"]
+  },
+  {
+    id: "chunk-following-distance",
+    titleAm: "የሁለት ሰከንድ ደህንነቱ የተጠበቀ የርቀት ህግ",
+    titleEn: "The Two-Second Safe Following Distance Rule",
+    chapter: "ምዕራፍ 2 / Chapter 2: የፍጥነት ገደብና የርቀት ህጎች",
+    section: "አንቀጽ 2.2 / Section 2.2",
+    category: "speed",
+    contentAm: "ከፊት ለፊቱ ከሚጓዝ ተሽከርካሪ ጀርባ ተከትሎ የሚጓዝ ሹፌር ደህንነቱ የተጠበቀ ርቀት መጠበቅ አለበት። በመደበኛ የአየር ሁኔታ እና በደረቅ አስፋልት ላይ ቢያንስ የ 2 ሰከንድ የርቀት ክፍተት መጠበቅ ግዴታ ነው። በዝናብ፣ በጭጋግ፣ በምሽት ወይም በጠጠር መንገድ ላይ ይህ ርቀት ወደ 4 ሰከንድ ወይም ከዚያ በላይ መጨመር አለበት።",
+    contentEn: "A driver following another vehicle must maintain a sufficient safety gap to stop safely in case of sudden deceleration. On dry asphalt in clear daylight, maintain at least a 2-second interval. During rain, fog, gravel roads, or nighttime driving, expand this buffer to at least 4 seconds.",
+    keywordsAm: ["ርቀት", "ሰከንድ", "የ 2 ሰከንድ ህግ", "ዝናብ", "ጭጋግ", "አስፋልት"],
+    keywordsEn: ["following distance", "2 second rule", "safe distance", "braking distance", "rain", "fog"],
+    signIds: ["warn-03"]
+  },
+  {
+    id: "chunk-pretrip-inspection",
+    titleAm: "የተሽከርካሪ የጠዋት/የቅድመ-ጉዞ ፍተሻ",
+    titleEn: "Mandatory Daily Pre-Trip Vehicle Inspection",
+    chapter: "ምዕራፍ 3 / Chapter 3: የተሽከርካሪ ቴክኒካል ፍተሻ",
+    section: "አንቀጽ 3.1 / Section 3.1",
+    category: "safety",
+    contentAm: "ማንኛውም ሹፌር ጉዞ ከመጀመሩ በፊት የሞተር ዘይት (Engine Oil)፣ የፍሬን ዘይት (Brake Fluid) እና የራዲያተር ፈሳሽ (Coolant) መጠን ማረጋገጥ አለበት። እንዲሁም የጎማ ንፋስ መጠንና የጎማው ልስላሴ፣ የሁሉም መብራቶች (የፊት፣ የኋላ፣ የፍሬንና የአቅጣጫ ጠቋሚ መብራቶች) መስራት፣ እና የአደጋ ጊዜ እቃዎች (መለዋወጫ ጎማ፣ ጃክ፣ የጎማ ቁልፍ፣ እና ቀይ የማስጠንቀቂያ ትሪያንግል C-caution) መሟላታቸውን ማረጋገጥ ግዴታ ነው።",
+    contentEn: "Before starting any journey, the driver must verify critical fluid levels (engine oil, hydraulic brake fluid, radiator coolant), inspect tire pressure and tread wear, test all illumination and indicator lamps, check brake pedal firmness, and ensure mandatory emergency equipment is aboard (spare tire, jack, wheel brace, and reflective hazard triangles).",
+    keywordsAm: ["ፍተሻ", "ዘይት", "ፍሬን", "ራዲያተር", "ጎማ", "ትሪያንግል", "ጃክ", "መብራት"],
+    keywordsEn: ["pre-trip", "inspection", "engine oil", "brake fluid", "coolant", "tire pressure", "jack", "triangle"],
+    signIds: []
+  },
+  {
+    id: "chunk-dui-penalties",
+    titleAm: "በአልኮልና አደንዛዥ እጽ ተጽእኖ ማሽከርከር እና ቅጣቶች",
+    titleEn: "DUI Regulations and Traffic Violation Penalties",
+    chapter: "ምዕራፍ 4 / Chapter 4: የትራፊክ ጥፋት ነጥቦችና ቅጣቶች",
+    section: "አንቀጽ 4.1 / Section 4.1",
+    category: "penalties",
+    contentAm: "በአልኮል ወይም አደንዛዥ እጽ ተጽእኖ ስር ሆኖ ማሽከርከር በኢትዮጵያ ህግ ፍጹም የተከለከለ ወንጀል ነው። ጥፋቱ መንጃ ፈቃድን እስከመሰረዝ፣ የገንዘብ ቅጣት እና የእስራት ቅጣት ያስከትላል። እንዲሁም በሚያሽከረክሩበት ጊዜ ስልክ በእጅ ይዞ ማውራት ወይም መልዕክት መጻፍ ህገወጥ ሲሆን ከፍተኛ የገንዘብ ቅጣትና የጥፋት ነጥብ ይመዘገባል።",
+    contentEn: "Driving under the influence (DUI) of alcohol or narcotics is strictly prohibited under Ethiopian traffic law, leading to driver license revocation, heavy fines, and criminal imprisonment. Additionally, holding or using a cellular phone while driving is strictly illegal and incurs substantial monetary fines and demerit points.",
+    keywordsAm: ["አልኮል", "ስልክ", "ቅጣት", "ጥፋት ነጥብ", "እስራት", "መንጃ ፈቃድ"],
+    keywordsEn: ["alcohol", "dui", "phone", "penalties", "demerit points", "revocation", "fine"],
+    signIds: []
+  },
+  {
+    id: "chunk-first-aid",
+    titleAm: "የትራፊክ አደጋ እና የመጀመሪያ ደረጃ ህክምና እርዳታ",
+    titleEn: "Traffic Collisions and Post-Crash First Aid",
+    chapter: "ምዕራፍ 5 / Chapter 5: የመጀመሪያ ደረጃ ህክምና እርዳታ",
+    section: "አንቀጽ 5.1 / Section 5.1",
+    category: "first_aid",
+    contentAm: "የትራፊክ አደጋ ሲከሰት ሹፌሩ መከተል ያለበት ቅደም ተከተል፡ 1. የራስዎን እና የሌሎችን ደህንነት መጠበቅ (ቦታውን በቀይ ትሪያንግል ቢያንስ በ 50 ሜትር ርቀት ማጠር)። 2. የድንገተኛ ህክምና እና ፖሊስ ወዲያውኑ መጥራት (907 / 911)። 3. ከባድ የደም መፍሰስ ካለ ንጹህ ጨርቅ በመጫን ደሙን ማስቆም። 4. የአንገት ወይም የጀርባ ጉዳት የደረሰበትን ሰው የህክምና ባለሙያ ሳይመጣ ያለ አግባብ አለማንቀሳቀስ።",
+    contentEn: "In case of a traffic accident, the protocol is: 1. Secure the site immediately by positioning red reflective triangles at least 50 meters behind the vehicles. 2. Contact police and emergency medical rescue immediately (907 / 911). 3. Apply direct firm pressure with sterile gauze to control severe hemorrhages. 4. Never move an injured victim with suspected cervical or spinal injury without trained medical personnel unless immediate risk of fire or explosion exists.",
+    keywordsAm: ["አደጋ", "የመጀመሪያ እርዳታ", "ደም መፍሰስ", "ፖሊስ", "አምቡላንስ", "ትሪያንግል", "907"],
+    keywordsEn: ["accident", "first aid", "bleeding", "emergency", "spinal", "triangle", "911"],
+    signIds: ["inf-01"]
+  },
+  {
+    id: "chunk-sign-categories",
+    titleAm: "የትራፊክ ምልክቶች አጠቃላይ ክፍፍልና ቀለማት",
+    titleEn: "Classifications and Shapes of Traffic Signs",
+    chapter: "ምዕራፍ 6 / Chapter 6: የትራፊክ ምልክቶች ስርዓት",
+    section: "አንቀጽ 6.1 / Section 6.1",
+    category: "signs",
+    contentAm: "በኢትዮጵያ የትራፊክ ምልክቶች በ 4 ዋና ዋና ክፍሎች ይከፈላሉ፡ 1. የማስጠንቀቂያ ምልክቶች (Warning)፡ ባለ ሦስት ማዕዘን (ትሪያንግል) ቀይ ጫፍ ያላቸው ሲሆኑ ሊከሰቱ የሚችሉ አደጋዎችን ያሳውቃሉ። 2. የመከልከያ ምልክቶች (Regulatory/Prohibitory)፡ ቀይ ክብ ቅርጽ ያላቸው ሲሆኑ የተከለከሉ ነገሮችን ያሳያሉ (ለምሳሌ ፍጥነት፣ መግባት ክልክል)። 3. የመመሪያ ወይም የግዴታ ምልክቶች (Mandatory)፡ ሰማያዊ ክብ ቅርጽ ያላቸው ሲሆኑ አሽከርካሪው መከተል ያለበትን ትዕዛዝ ያመለክታሉ። 4. የመረጃ ሰጪ ምልክቶች (Informational)፡ አራት ማዕዘን ቅርጽ ያላቸው ሲሆኑ ሆስፒታል፣ ነዳጅ ማደያ ወይም ፓርኪንግን ያሳውቃሉ።",
+    contentEn: "Traffic signs in Ethiopia fall into four primary structural categories: 1. Hazard Warning Signs: Triangular with red border, alerting drivers to upcoming dangers. 2. Prohibitory / Regulatory Signs: Circular with red border, dictating actions drivers must not take. 3. Mandatory Signs: Circular with blue background and white symbols, ordering obligatory maneuvers. 4. Informatory Signs: Rectangular (blue/green), providing navigational and utility services such as hospitals and parking.",
+    keywordsAm: ["ምልክቶች", "ማስጠንቀቂያ", "መከልከያ", "መመሪያ", "መረጃ", "ትሪያንግል", "ክብ"],
+    keywordsEn: ["traffic signs", "warning", "prohibitory", "mandatory", "informational", "triangle", "circular"],
+    signIds: ["warn-01", "reg-01", "man-01", "inf-01"]
+  }
+];
