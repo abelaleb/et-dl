@@ -1,5 +1,6 @@
 # 🚗 መንጃ ፈቃድ ረዳት (EthioDrive AI)
-### Modern Next.js Bilingual RAG Chatbot Boilerplate for Ethiopian Driver's License Preparation
+
+## Modern Next.js Bilingual RAG Chatbot Boilerplate for Ethiopian Driver's License Preparation
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.3-black?style=flat&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.2-blue?style=flat&logo=react)](https://react.dev/)
@@ -27,6 +28,7 @@ Built from the ground up to support **Amharic (አማርኛ)** and **English** w
 ## 🛠 Tech Stack
 
 | Layer | Technology |
+
 |---|---|
 | **Framework** | Next.js 16 (App Router, Turbopack, React 19) |
 | **Styling** | Tailwind CSS v4, Lucide React icons |
@@ -41,6 +43,7 @@ Built from the ground up to support **Amharic (አማርኛ)** and **English** w
 ## 🚀 Quickstart Guide
 
 ### 1. Clone & Install
+
 ```bash
 git clone https://github.com/your-username/et-dl.git
 cd et-dl
@@ -48,28 +51,36 @@ pnpm install
 ```
 
 ### 2. Configure Environment Variables
+
 Copy `.env.example` to `.env.local`:
+
 ```bash
 cp .env.example .env.local
 ```
 
 Add your Google Gemini or OpenAI API key:
+
 ```env
 AI_PROVIDER=google
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
+
 > **Note:** The boilerplate includes a **Zero-Dependency Fallback Mode**. If no API key is set, the application still runs locally, retrieves grounded manual chapters, and streams responses demonstrating the RAG pipeline.
 
 ### 3. Verify Knowledge Base & Ingestion
+
 Run the verification and test query suite:
+
 ```bash
 pnpm ingest
 ```
 
 ### 4. Start Development Server
+
 ```bash
 pnpm dev
 ```
+
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
@@ -133,10 +144,13 @@ et-dl/
 ## 💡 How It Works
 
 ### 1. Ethiopic NLP Normalization
+
 Amharic text frequently uses homophone characters interchangeably (`ሀ`/`ሐ`/`ኀ`, `ሰ`/`ሠ`, `አ`/`ዐ`, `ጸ`/`ፀ`). The normalizer in [amharic-normalizer.ts](file:///home/sillywatch/Documents/Development/AI-ML/et-dl/src/lib/nlp/amharic-normalizer.ts) canonicalizes these characters so that a query written with `ሐሳብ` matches documents containing `ሀሳብ`, boosting retrieval accuracy.
 
 ### 2. Hybrid RAG Retrieval
+
 When a user asks a question (e.g. *"በአደባባይ ላይ የቀዳሚነት መብት ያለው ማን ነው?"* or *"Who has right-of-way at a roundabout?"*):
+
 1. The query is normalized and embedded.
 2. The retriever calculates **Dense Cosine Similarity** + **Sparse Keyword Overlap (BM25-style)**.
 3. Linked traffic signs (e.g. `W-01` Roundabout Ahead, `M-02` Compulsory Roundabout) are retrieved.
@@ -149,6 +163,7 @@ When a user asks a question (e.g. *"በአደባባይ ላይ የቀዳሚነት
 ## 🚢 Deployment
 
 ### Deploy to Vercel
+
 1. Push your repository to GitHub.
 2. Import the project into [Vercel](https://vercel.com/).
 3. Add your environment variables (`GEMINI_API_KEY` or `OPENAI_API_KEY`).
